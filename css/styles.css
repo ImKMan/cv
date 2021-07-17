@@ -73,11 +73,13 @@ img {
   position: absolute;
   bottom: 300px;
   left: 300px;
+  max-width: 300px;
 }
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
+  max-width: 300px;
 }
 .sql {
   height: 64px;
