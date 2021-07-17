@@ -73,11 +73,13 @@ img {
   position: absolute;
   bottom: 300px;
   left: 300px;
+  max-width: fit-content;
 }
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
+  max-width: fit-content;
 }
 .sql {
   height: 64px;
@@ -105,19 +107,8 @@ hr {
   margin-left: 11px;
 }
 
-@media (max-width: 600px) {
-  body {
-    background-color: #e4f9f5;
-  }
-  .top-cloud {
-    max-width: fit-content;
-  }
-  .bottom-cloud {
-    max-width: fit-content;
-  }
-  .mount {
-    max-width: fit-content;
-  }
+.mount {
+  max-width: fit-content;
 }
 
 .BUTTON_MJJ {
