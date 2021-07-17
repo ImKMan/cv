@@ -110,10 +110,13 @@ hr {
     background-color: #e4f9f5;
   }
   .top-cloud {
-    max-width: 50px;
+    max-width: fit-content;
   }
   .bottom-cloud {
-    max-width: 50px;
+    max-width: fit-content;
+  }
+  .mount {
+    max-width: fit-content;
   }
 }
 
