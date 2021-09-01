@@ -57,6 +57,11 @@ img {
   float: left;
   margin-right: 30px;
 }
+.aws {
+  height: 64px;
+  float: left;
+  margin-right: 30px;
+}
 .nodejs {
   height: 64px;
   float: left;
