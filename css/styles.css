@@ -57,6 +57,11 @@ img {
   float: left;
   margin-right: 30px;
 }
+.aws {
+  height: 64px;
+  float: left;
+  margin-right: 30px;
+}
 .nodejs {
   height: 64px;
   float: left;
@@ -71,15 +76,13 @@ img {
 }
 .bottom-cloud {
   position: absolute;
+  left: 250px;
   bottom: 300px;
-  left: 300px;
-  max-width: fit-content;
 }
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
-  max-width: fit-content;
 }
 .sql {
   height: 64px;
@@ -104,11 +107,13 @@ hr {
   margin-left: 10px;
 }
 #twt {
-  margin-left: 11px;
+  margin-left: 10px;
 }
 
-.mount {
-  max-width: fit-content;
+@media (max-width: 600px) {
+  body {
+    background-color: #e4f9f5;
+  }
 }
 
 .BUTTON_MJJ {
